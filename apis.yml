@@ -1,22 +1,97 @@
 aid: loftia
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/loftia.png
 name: Loftia
-description: Loftia is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Loftia is a cozy, solarpunk massively-multiplayer online (MMO) game developed
+  by Qloud Games Pty Ltd, a remote-first indie studio founded in 2022 and headquartered
+  in Sydney, Australia. Set across floating islands in a warm, sustainable world, players
+  farm, craft, decorate, socialize, and build a life in the sky alongside friends in a
+  shared world that grows over time. The studio (founded by Eric Mallon, Martina Qin, and
+  Michael Su) raised a $5M seed round led by BITKRAFT Ventures and GFR Fund with
+  participation from Andreessen Horowitz (a16z), and took part in a16z's SPEEDRUN gaming
+  accelerator. Loftia is a consumer game company with no public developer API surface as
+  of this enrichment pass.
 url: https://raw.githubusercontent.com/api-evangelist/loftia/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - a16z
+- BITKRAFT Ventures
+- GFR Fund
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-legal-name: Qloud Games Pty Ltd
+x-headquarters: Sydney, Australia
+x-founded: '2022'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Games
+- Gaming
+- MMO
+- Entertainment
+- Consumer
+- Solarpunk
 apis: []
+common:
+- name: Website
+  url: https://loftia.gg/
+  type: Website
+- name: About
+  url: https://loftia.gg/about/
+  type: About
+- name: FAQ
+  url: https://loftia.gg/faq/
+  type: FAQ
+- name: Blog
+  url: https://loftia.gg/blog/
+  type: Blog
+- name: Sign Up
+  url: https://loftia.gg/register/
+  type: SignUp
+- name: Login
+  url: https://loftia.gg/login/
+  type: Login
+- name: Privacy Policy
+  url: https://loftia.gg/privacy/
+  type: PrivacyPolicy
+- name: Careers
+  url: https://loftia.gg/jobs/
+  type: Careers
+- name: Press Kit
+  url: https://loftia.gg/press/
+  type: PressKit
+- name: Community
+  url: https://discord.gg/loftia
+  type: Support
+- name: GitHub Organization
+  url: https://github.com/qloudgames
+  type: GitHubOrganization
+- name: Steam
+  url: https://store.steampowered.com/app/2320980/Loftia/
+  type: Steam
+- name: LinkedIn
+  url: https://au.linkedin.com/company/qloud-games
+  type: LinkedIn
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
