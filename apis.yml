@@ -46,7 +46,7 @@ x-headquarters: Sydney, Australia
 x-founded: '2022'
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-20'
+modified: '2026-10-06'
 tags:
 - Company
 - Games
@@ -57,6 +57,8 @@ tags:
 - Solarpunk
 apis: []
 common:
+- url: https://blog.loftia.gg/feed/
+  type: BlogRSS
 - name: Website
   url: https://loftia.gg/
   type: Website
